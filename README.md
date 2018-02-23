@@ -1,11 +1,11 @@
 # Desafio Beetech ( Client )
 
 ## Conteúdo
-- [Pré-requisitos](#folder-structure)
-- [Instalação](#folder-structure)
+- Pré-requisitos
+- Instalação
 
 ### Pré Requisitos
-- [Node 8.9.4 ( ou superior )]
+- Node 8.9.4 ( ou superior )
 - NPM 5.6.0
 - Git
 
