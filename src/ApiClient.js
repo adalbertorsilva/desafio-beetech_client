@@ -8,7 +8,7 @@ class ApiClient {
   }
 
   async getPlans () {
-    const response = await fetch(`${process.env.REACT_APP_API_BASE_URL}/plans`)
+    const response = await fetch(`https://evening-crag-52215.herokuapp.com/plans`)
     return await response.json()
   }
 
@@ -18,7 +18,7 @@ class ApiClient {
       headers: this.headers,
       body: JSON.stringify(simulationPayload)
     }
-    const response = await  fetch(`${process.env.REACT_APP_API_BASE_URL}/simulations`, payload)
+    const response = await  fetch(`https://evening-crag-52215.herokuapp.com/simulations`, payload)
     return await response.json()
   }
 
@@ -28,7 +28,7 @@ class ApiClient {
       headers: this.headers,
       body: JSON.stringify(clientPayload)
     }
-    await  fetch(`${process.env.REACT_APP_API_BASE_URL}/clients`, payload)
+    await  fetch(`https://evening-crag-52215.herokuapp.com/clients`, payload)
   }
 }
 
