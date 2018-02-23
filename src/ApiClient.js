@@ -5,11 +5,10 @@ class ApiClient {
       'Accept': 'application/json, text/plain, */*',
       'Content-Type': 'application/json'
     }
-    this.url = 'https://desafio-beetech.herokuapp.com'
   }
 
   async getPlans () {
-    const response = await fetch(`${this.url}/plans`)
+    const response = await fetch(`${process.env.REACT_APP_API_BASE_URL}/plans`)
     return await response.json()
   }
 
@@ -19,7 +18,7 @@ class ApiClient {
       headers: this.headers,
       body: JSON.stringify(simulationPayload)
     }
-    const response = await  fetch(`${this.url}/simulations`, payload)
+    const response = await  fetch(`${process.env.REACT_APP_API_BASE_URL}/simulations`, payload)
     return await response.json()
   }
 
@@ -29,7 +28,7 @@ class ApiClient {
       headers: this.headers,
       body: JSON.stringify(clientPayload)
     }
-    await  fetch(`${this.url}/clients`, payload)
+    await  fetch(`${process.env.REACT_APP_API_BASE_URL}/clients`, payload)
   }
 }
 
