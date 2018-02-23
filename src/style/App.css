@@ -1,0 +1,20 @@
+
+
+
+.app form { max-width: 600px; margin: 0 auto; border: 1px green solid; background: #f9f9f9; padding: 50px 30px}
+.app form select,.app form input  {margin: 23px 3px; height:30px; border: 1px green solid;  color: green;}
+.app form select {width: 98%; color: green;font: 12px verdana, arial, sans-serif; padding-left: 10px; background: #fff}
+.app form input{width: 31%; display: inline-block; }
+.enabled-button{background-color: green; color: #fff; font-size:1.4vw; padding: 10px; width: 30%; margin-right: 7px}
+.enabled-button:hover{background-color: orange; color: #fff; }
+.disabled-button{background-color: gray; color: rgb(182, 179, 179); font-size:1.4vw; padding: 10px; width: 30%; margin-right: 7px}
+
+.app form input#callValue{width: 65%; height: 40px; border: 0px; border-bottom: 2px solid green; background:#f9f9f9 }
+
+::-webkit-input-placeholder {color: gray;font: 12px verdana, arial, sans-serif; padding-left: 10px}
+:-moz-placeholder {color: gray;font: 12px verdana, arial, sans-serif; padding-left: 10px}
+::-moz-placeholder {color: gray;font: 12px verdana, arial, sans-serif; padding-left: 10px}
+:-ms-input-placeholder {color: gray;font: 12px verdana, arial, sans-serif; padding-left: 10px}
+
+.erro {border: 1px red solid !important}
+.erro::-webkit-input-placeholder {color: red!important}
