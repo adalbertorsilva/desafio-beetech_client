@@ -1,4 +1,4 @@
-# Desafio Beetech ( Client )
+# Desafio Beetech Client
 
 ## Conteúdo
 - Pré-requisitos
